@@ -8,11 +8,18 @@
   </head>
   <body class="bg-black text-white">
     <header
-      class="flex items-center justify-between px-12 fixed w-full max-w-[1440px] left-[50%] -translate-x-[50%]"
+      class="flex items-center justify-between px-3 md:px-12 fixed w-full max-w-[1440px] left-[50%] -translate-x-[50%]"
     >
       <a href="/">
-        <img class="w-32" src="./images/shoelogo.png" alt="logo" width="100" />
-        <p class="text-sm -mt-8 font-bold">The Shoe Company</p>
+        <img
+          class="w-[70px] md:w-32"
+          src="./images/shoelogo.png"
+          alt="logo"
+          width="100"
+        />
+        <p class="text-[12px] md:text-sm -mt-4 md:-mt-8 font-bold">
+          The Shoe Company
+        </p>
       </a>
       <nav class="hidden md:block space-x-6 lg:space-x-8 lg:text-2xl">
         <a class="font-bold" href="#hero">Home</a>
@@ -25,10 +32,14 @@
     </header>
     <section
       id="hero"
-      class="bg-[url('./images/roadphoto.png')] bg-contain bg-no-repeat bg-right pt-36 max-w-[1440px] mx-auto"
+      class="bg-[url('./images/roadphoto.png')] bg-cover md:bg-contain bg-no-repeat bg-right pt-36 max-w-[1440px] mx-auto"
     >
-      <div class="flex items-center justify-between max-w-6xl mx-auto">
-        <h1 class="text-6xl font-bold leading-[72px]">
+      <div
+        class="flex flex-col md:flex-row md:items-center justify-between max-w-6xl mx-auto"
+      >
+        <h1
+          class="text-4xl px-[10px] md:px-[62px] md:text-6xl font-bold leading-[48px] md:leading-[72px]"
+        >
           THE <br />
           SHOE <br />
           COMPANY
