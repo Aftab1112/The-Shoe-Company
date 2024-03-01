@@ -8,7 +8,7 @@
   </head>
   <body class="bg-black text-white">
     <header
-      class="section-container flex items-center justify-between fixed w-full left-[50%] -translate-x-[50%]"
+      class="section-container max-w-full flex items-center justify-between fixed w-full left-[50%] -translate-x-[50%] bg-black/70 backdrop-blur-sm"
     >
       <a href="#hero">
         <img
@@ -56,42 +56,56 @@
     </section>
 
     <section id="how-it-works" class="section-container">
-      <h2 class="text-center text-3xl font-bold max-w-md mx-auto pt-32">
+      <h2 class="text-center text-3xl font-bold max-w-md mx-auto pt-32 mb-12">
         Have they finally made the <br />
         perfect workout shoe?
       </h2>
-      <div class="max-w-xl mx-auto mt-12 relative">
+      <div class="max-w-xl mx-auto pt-60 xl:pt-0 xl:mt-12 relative">
         <img
-          class="w-full max-w-xl"
+          class="w-full max-w-xl rotate-6 xl:rotate-0 p-12 media560:p-20 media500:p-0"
           src="./images/how-it-works-image.png"
           alt="shoe"
         />
 
-        <div class="max-w-xs absolute top-0 -translate-x-full">
-          <h3 class="text-2xl font-bold">THE HEEL</h3>
-          <p class="text-lg">
+        <div
+          class="max-w-[200px] xl:max-w-xs absolute top-0 xl:-translate-x-full translate-y-24 media500:translate-y-0"
+        >
+          <h3 class="text-lg media560:text-2xl font-bold">THE HEEL</h3>
+          <p class="text-xs media560:text-lg">
             The heel is well-built, has appropriate elevation and is not too
             rigid.
           </p>
-          <img class="ml-auto" src="./images/arrow-1.png" alt="arrow-1" />
+          <img
+            class="w-32 xl:ml-auto rotate-45 xl:rotate-0"
+            src="./images/arrow-1.png"
+            alt="arrow-1"
+          />
         </div>
 
-        <div class="max-w-xs absolute -top-2 -right-64">
-          <img class="-ml-40" src="./images/arrow-2.png" alt="arrow-1" />
-          <h3 class="text-2xl font-bold -mt-20">THE FRONT</h3>
-          <p class="text-lg">
+        <div
+          class="max-w-[200px] xl:max-w-xs absolute top-16 media560:-top-2 right-0 xl:-right-64 translate-y-14 media500:translate-y-0"
+        >
+          <img
+            class="w-32 media560:auto xl:-ml-40 translate-y-full media560:translate-y-60 xl:translate-y-0 rotate-[120deg] xl:rotate-0"
+            src="./images/arrow-2.png"
+            alt="arrow-2"
+          />
+          <h3 class="text-lg media560:text-2xl font-bold -mt-20">THE FRONT</h3>
+          <p class="text-xs media560:text-lg">
             The front is comfortable and adjusts well to the shape of your foot.
           </p>
         </div>
 
-        <div class="max-w-xs absolute -bottom-7 -ml-20">
+        <div
+          class="max-w-[200px] xl:max-w-xs absolute -bottom-7 ml-6 media560:ml-0"
+        >
           <img
-            class="ml-auto -mb-12 max-w-[150px]"
+            class="ml-auto -mb-12 max-w-[150px] w-[110px] media430:w-auto"
             src="./images/arrow-3.png"
-            alt="arrow-1"
+            alt="arrow-3"
           />
-          <h3 class="text-2xl font-bold mt-2">Traction</h3>
-          <p class="text-lg">
+          <h3 class="text-lg media560:text-2xl font-bold mt-2">Traction</h3>
+          <p class="text-xs media560:text-lg">
             The shoe has good traction and doesn't slip easily.
           </p>
         </div>
