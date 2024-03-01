@@ -8,6 +8,9 @@ module.exports = {
         media500: "500px",
         media430: "430px",
       },
+      backgroundImage: {
+        testimonials: "url('/images/background-image-testimonials.png')",
+      },
     },
   },
   plugins: [],
