@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>The Shoe Company</title>
     <link rel="stylesheet" href="output.css" />
+    <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
   </head>
   <body class="bg-black text-white">
     <header
@@ -21,15 +22,29 @@
           The Shoe Company
         </p>
       </a>
-      <nav class="hidden md:block space-x-6 lg:space-x-8 lg:text-2xl">
+      <nav
+        class="nav-links invisible md:visible flex flex-col md:flex-row text-[20px] md:text-2xl absolute right-[-1%] md:right-0 mr-[35px] md:mr-5 pt-6 pb-[50px] px-[60px] md:px-0 mt-[280px] md:mt-0 leading-[50px] md:leading-normal space-x-0 rounded-md md:rounded-none bg-white/80 md:bg-inherit opacity-50 md:opacity-100 text-black md:text-white md:block md:space-x-6 lg:space-x-8 lg:text-2xl"
+      >
         <a class="font-bold" href="#hero">Home</a>
         <a class="font-bold" href="#how-it-works">How It Works?</a>
         <a class="font-bold" href="#about">About</a>
         <a class="font-bold" href="#testimonials">Testimonials</a>
         <a class="font-bold" href="#contact">Contact Us</a>
       </nav>
-      <button class="text-5xl md:hidden">☰</button>
+      <ion-icon
+        onclick="onToggleMenu(this)"
+        name="menu"
+        class="text-5xl mr-3 cursor-pointer md:hidden"
+      ></ion-icon>
     </header>
+
+    <script>
+      const navLinks = document.querySelector(".nav-links");
+      function onToggleMenu(e) {
+        e.name = e.name === "menu" ? "close" : "menu";
+        navLinks.classList.toggle("invisible");
+      }
+    </script>
 
     <section
       id="hero"
@@ -39,6 +54,7 @@
         class="flex flex-col md:flex-row md:items-center justify-between max-w-6xl mx-auto"
       >
         <h1
+          id="heading"
           class="text-4xl px-[10px] md:px-[62px] md:text-7xl font-bold leading-[64px] md:leading-[92px]"
         >
           THE <br />
