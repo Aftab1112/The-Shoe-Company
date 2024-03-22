@@ -1,7 +1,12 @@
 
 # The Shoe Company
 
-This app is entirely built using Tailwind for design.
+This app is entirely built using Tailwind CSS for design.
+
+
+
+
+
 
 
 
@@ -11,19 +16,43 @@ I created this app for practicing with Tailwind, ensuring full responsiveness ac
 ## Tech Stack 
 
 * HTML
-* Tailwind 
-## Initial Design of App 
+* Tailwind CSS
 
-This is the preliminary design of the app.
-Click to view.
+## Features
 
-* [Design](https://www.figma.com/file/KRagV1oBRnzQAOIOwalUgz/The-Shoe-Company?type=design&node-id=0-1&mode=design&t=aSehS3KXd3lZWta3-0)
+* Responsive Design
+* Tailwind CSS Styling
+
+
+
+
+
+
+
+## Initial Design of App
+
+* Click the link below to view the initial figma design of app.
+
+* [Figma Design](https://www.figma.com/file/KRagV1oBRnzQAOIOwalUgz/The-Shoe-Company?type=design&node-id=0-1&mode=design&t=ARPcojmiPBIvUtsD-0)
+
+
+
+
+
+ 
+
+
 ## My Final Design
 
-* [Live Demo](https://the-shoe-company.vercel.app/)
-------
-* **Author  :**  Aftab Reshamwale
+* Click the link below to view my final design.
 
-  Please feel free to suggest improvements  for my project.
+* [The Shoe Company](https://the-shoe-company.vercel.app/)
+
+---
+
+*Author* : **Aftab Reshamwale**
+
+Please feel free to suggest improvements for my project.
+
 
   
